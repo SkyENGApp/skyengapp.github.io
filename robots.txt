@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Point crawlers to your sitemap
+Sitemap: https://codelovin-ai.github.io/sky-eng-privacy/sitemap.xml
