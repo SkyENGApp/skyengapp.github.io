@@ -1,32 +1,30 @@
-# Sky ENG – AI English Speaking Coach
+# Sky ENG – English Word Game & AI Speaking Coach
 
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/sky-eng/id6755718958)
 
-🌐 **Live Website (Root Domain):**  
-👉 [Sky ENG Website](https://codelovin-ai.github.io/)
+🌐 **Live Website (Root Domain):** 👉 [Sky ENG Website](https://codelovin-ai.github.io/)
 
-📂 **Project Landing Page (Privacy & Support):**  
-👉 [Sky ENG Privacy & Support](https://codelovin-ai.github.io/skyengprivacy/)
+📂 **Project Landing Page (Privacy & Support):** 👉 [Sky ENG Privacy & Support](https://codelovin-ai.github.io/skyengprivacy/)
 
 ---
 
 ## 🚀 About Sky ENG
-Sky ENG is a **free AI-powered English speaking coach** that helps learners practice with **real exam-style accuracy**.  
-It uses advanced speech analysis similar to **IELTS, TOEFL, PTE, CELPIP, Cambridge, and Business English assessments**.
+Sky ENG is a **free AI-powered English Word Game** and speaking coach that helps learners practice with **real exam-style accuracy**. 
 
-- 💙 100% Free – No subscriptions, no paywalls  
-- ⚡ Real-time AI feedback on pronunciation, fluency, and grammar  
-- 🎯 Perfect for exam prep, interviews, and business communication  
+**Play fun word games, vocabulary challenges, and spelling tasks** while the app uses advanced speech analysis similar to **IELTS, TOEFL, PTE, CELPIP, Cambridge, and Business English assessments** to grade your voice.
+
+- 💙 **100% Free** – No subscriptions, no paywalls  
+- ⚡ **Real-time AI Feedback** on pronunciation, fluency, and grammar  
+- 🎯 **Perfect for** gamified learning, exam prep, interviews, and business communication  
 
 ---
 
 ## ✨ Features
-- 🎤 Real-Time Speaking Practice  
-- 📊 Exam-Style Speech Analytics  
-- 🤖 Advanced AI Tutor  
-- 📝 Transcript Vault  
-- 🗣️ Roleplay Scenarios  
-- 🎧 Listening & Reading Practice  
+- 🎮 **Word Game Speaking Practice** (Vocabulary, Spelling, Roleplay)  
+- 📈 **Exam-Style Speech Analytics** (Pronunciation, Clarity, Fluency Scores)  
+- 🧠 **Advanced AI Tutor** (Instant, on-device coaching)  
+- 📜 **Transcript Vault** (Full history, translation, definitions)  
+- 🎭 **Roleplay Scenarios & Challenges** - 📚 **Listening & Reading Practice**
 
 ---
 
@@ -38,86 +36,79 @@ All chats and transcripts remain safely on your device.
 ---
 
 ## 📧 Support
-Need help? Contact us at: **codelovin@outlook.com**  
-👉 [Support Page](https://codelovin-ai.github.io/skyengprivacy/#support)
+Need help? Contact us at: **codelovin@outlook.com**
 
 ---
 
-## 📱 Download
-👉 [Download Sky ENG on the App Store](https://apps.apple.com/app/sky-eng/id6755718958)
-
----
-
-## 🌍 Multilingual Keywords for SEO
-
-### English
-english speaking, learn english, IELTS, TOEFL, PTE, CELPIP, AI English tutor, pronunciation, fluency, business English, exam preparation, grammar correction, vocabulary building, accent training, ESL, Cambridge English, Duolingo alternative, interview preparation, English fluency app
+## 🌍 Localization Keyword Expansion (Game-First ASO)
+Keywords used for global search ranking in various App Store regions.
 
 ### Hindi (hi-IN)
-english बोलना, english सीखो, IELTS, spoken english, pronunciation, fluency, TOEFL, अंग्रेजी बोलने का अभ्यास, अंग्रेजी सीखना, उच्चारण, धाराप्रवाह अंग्रेजी, व्याकरण, शब्दावली
+अंग्रेजी शब्द खेल, वोकैबुलरी गेम, स्पेलिंग गेम, अंग्रेजी सीखो, उच्चारण, IELTS बोलना
 
-### Chinese (zh-CN)
-学英语, 英语口语, 雅思口语, 托福口语, 英语练习, 口语练习, 发音, 英语学习, 流利英语, 英语会话, 语法, 词汇, 考试准备
+### Simplified Chinese (zh-CN)
+英语单词游戏,词汇游戏,拼写游戏,学英语,发音练习,雅思口语
 
 ### Arabic (ar-SA)
-تعلم الانجليزية, تحدث الانجليزية, ايلتس, محادثة, نطق, اختبار انجليزي, توفل, ممارسة التحدث, الطلاقة, القواعد, المفردات
+لعبة كلمات إنجليزية,مفردات,تهجئة,تعلم الإنجليزية,نطق,ايلتس
 
-### Portuguese (pt-BR)
-aprender ingles, falar ingles, conversacao, pronuncia, fluencia, IELTS, TOEFL, pratica de conversacao, gramatica, vocabulario
+### Brazilian Portuguese (pt-BR)
+jogo de palavras,vocabulário,soletração,aprender inglês,pronúncia,IELTS
 
 ### Spanish (es-MX)
-aprender ingles, hablar ingles, ingles conversacion, pronunciacion, IELTS, TOEFL, practica de conversacion, fluidez, gramatica
+juego de palabras inglés,vocabulario,ortografía,aprender inglés,pronunciación,IELTS
 
 ### Turkish (tr-TR)
-ingilizce konusma, ingilizce öğren, IELTS, TOEFL, konusma pratiği, telaffuz, akıcılık, dilbilgisi
+ingilizce kelime oyunu,kelime dağarcığı,heceleme,ingilizce öğren,telaffuz,IELTS
 
 ### Japanese (ja-JP)
-英会話, 英語学習, 英語スピーキング, 発音練習, 流暢さ, IELTS, TOEFL, 英語練習, 文法, 語彙
+英語単語ゲーム,語彙,スペリング,英語学習,発音練習,IELTS
 
 ### Korean (ko-KR)
-영어말하기, 영어공부, 영어연습, 발음교정, IELTS, TOEFL, 스피킹연습, 플루언시, 문법, 어휘
+영어 단어 게임,어휘 게임,철자 게임,영어 공부,발음 교정,IELTS
 
 ### Vietnamese (vi-VN)
-học tiếng anh, nói tiếng anh, luyện nói, IELTS speaking, phát âm, fluency, TOEFL, ngữ pháp, từ vựng
+trò chơi từ vựng,đánh vần,học tiếng Anh,phát âm,IELTS
 
 ### Indonesian (id-ID)
-belajar inggris, bicara inggris, latihan speaking, pronunciation, IELTS, TOEFL, tata bahasa, kosakata
+game kata,perbendaharaan kata,ejaan,belajar bahasa Inggris,pronunciation,IELTS
 
 ### Thai (th-TH)
-เรียนภาษาอังกฤษ, พูดภาษาอังกฤษ, ฝึกพูด, การออกเสียง, IELTS, TOEFL, ไวยากรณ์, คำศัพท์
+เกมคำศัพท์,การสะกดคำ,เรียนภาษาอังกฤษ,การออกเสียง,IELTS,TOEFL,ไวยากรณ์,คำศัพท์
 
 ### Russian (ru-RU)
-изучение английского, говорить по-английски, практика разговора, произношение, IELTS, TOEFL, грамматика
+игра слов,словарный запас,правописание,изучение английского,произношение,IELTS,TOEFL,грамматика
 
 ### French (fr-FR)
-apprendre l'anglais, parler anglais, pratique de conversation, prononciation, IELTS, TOEFL, grammaire
+jeu de mots anglais,vocabulaire,orthographe,apprendre l'anglais,prononciation,IELTS,TOEFL,grammaire
 
 ### German (de-DE)
-englisch lernen, englisch sprechen, gesprächspraxis, aussprache, IELTS, TOEFL, grammatik
+englisches Worträtsel,Wortschatz,Rechtschreibung,Englisch lernen,Aussprache,IELTS,TOEFL,grammatik
 
 ### Italian (it-IT)
-imparare l'inglese, parlare inglese, pratica di conversazione, pronuncia, IELTS, TOEFL, grammatica
+gioco di parole,vocabolario,ortografia,imparare inglese,pronuncia,IELTS,TOEFL,grammatica
 
 ### Dutch (nl-NL)
-engels leren, engels spreken, gespreksoefening, uitspraak, IELTS, TOEFL, grammatik
+woordspel engels,woordenschat,spelling,engels leren,uitspraak,IELTS,TOEFL,grammatik
 
 ### Polish (pl-PL)
-nauka angielskiego, mówienie po angielsku, praktyka konwersacji, wymowa, IELTS, TOEFL, gramatyka
+gra słowna,słownictwo,pisownia,nauka angielskiego,wymowa,IELTS,TOEFL,gramatyka
 
 ### Persian (fa-IR)
-یادگیری انگلیسی, صحبت کردن به انگلیسی, تمرین مکالمه, تلفظ, آیلتس, تافل, دستور زبان
+بازی کلمات انگلیسی,واژگان,املا,یادگیری انگلیسی,تلفظ,آیلتس,تافل,دستور زبان
 
 ### Bengali (bn-BD)
-ইংরেজি শেখা, ইংরেজি বলা, কথোপকথন অনুশীলন, উচ্চারণ, আইইএলটিএস, টোফেল, ব্যাকরণ
+ইংরেজি শব্দ খেলা,শব্দভাণ্ডার,বানান,ইংরেজি শেখা,উচ্চারণ,আইইএলটিএস,টোফেল,ব্যাকরণ
 
 ### Urdu (ur-PK)
-انگریزی سیکھنا, انگریزی بولنا, بات چیت کی مشق, تلفظ, آئیلٹس, ٹوفل, گرامر
+انگریزی لفظی کھیل,الفاظ,املا,انگریزی سیکھنا,تلفظ,آئیلٹس,ٹوفل,گرامر
 
 ---
 
-## 🔑 SEO Strategy
-- Root domain (`https://codelovin-ai.github.io/`) hosts compliance files (`app-ads.txt`, `robots.txt`, `sitemap.xml`)  
-- Backlinks from GitHub README to App Store and project site (`/skyengprivacy`)  
-- Multilingual keyword blocks for global discoverability  
-- Structured headings for search engine parsing  
-- JSON-LD structured data in HTML for app entity recognition
+## 🔑 SEO Strategy (Maximizing Visibility)
+
+- 🛡️ **Compliance & Infrastructure:** Root domain (`https://skyengapp.github.io/`) hosts compliance files (`app-ads.txt`, `robots.txt`, `sitemap.xml`).
+- 🔗 **Backlink Power:** Backlinks from GitHub README to App Store and project site (`https://skyengapp.github.io/`).
+- 🌍 **Global Discovery:** Multilingual keyword blocks for global discoverability.
+- 📝 **Structured Content:** Structured headings for search engine parsing.
+- 💡 **Entity Recognition:** JSON-LD structured data in HTML for app entity recognition.
