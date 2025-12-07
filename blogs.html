@@ -160,6 +160,33 @@
   }
 
   /* ──────────────────────────────────────────────── */
+  /* 🟢 NEW: INLINE ICON STYLE (from index.html feature-icon) */
+  /* ──────────────────────────────────────────────── */
+  .icon-inline {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    /* Gradient background copied from index.html .feature-icon */
+    background: linear-gradient(135deg, var(--sky-blue), #5ac8fa);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    /* Box shadow copied from index.html .feature-icon */
+    box-shadow: 0 4px 12px rgba(10, 132, 255, 0.3);
+    vertical-align: middle;
+  }
+
+  .icon-inline svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+
+
+  /* ──────────────────────────────────────────────── */
   /* 📰 BLOG ARTICLE UI (Adapted for Dark Theme) */
   /* ──────────────────────────────────────────────── */
   main {
@@ -367,13 +394,13 @@
     <p class="subtitle">Everything you need to know about Sky ENG's fun word game platform with AI-powered feedback and exam-style practice for IELTS, TOEFL, PTE, and CELPIP</p>
     
     <div class="meta">
-      <span>📅 Published: December 7, 2025</span>
-      <span>⏱️ Read time: 15 min</span>
-      <span>📱 100% Free iOS App</span>
+      <span><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M19 4h-2V2h-2v2H9V2H7v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/></svg></span> Published: December 7, 2025</span>
+      <span><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg></span> Read time: 15 min</span>
+      <span><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M18 1H6c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm-2 18H8V5h8v14z"/></svg></span> 100% Free iOS App</span>
     </div>
 
     <div class="toc">
-      <h3>📋 Table of Contents</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zm0-8h14V7H7v2z"/></svg></span> Table of Contents</h3>
       <ul>
         <li><a href="#what-is-sky-eng">What is Sky ENG?</a></li>
         <li><a href="#conversation-feedback">Conversation & Feedback Modes</a></li>
@@ -388,14 +415,14 @@
     </div>
 
     <section id="what-is-sky-eng">
-      <h2>What is Sky ENG?</h2>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.43 12.91 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.11-.9-2.01-2-2.01s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg></span> What is Sky ENG?</h2>
       
       <p>Sky ENG is a <strong>free, word game app with AI-powered English learning</strong> designed to help you improve vocabulary, pronunciation, and fluency while having fun. Unlike traditional language learning apps, Sky ENG makes <em>speaking practice</em> engaging by turning it into interactive word challenges combined with exam-style preparation.</p>
       
       <p>The app uses advanced <strong>speech recognition technology</strong> and on-device AI to provide instant feedback on your pronunciation, grammar, vocabulary, and fluency. Whether you're preparing for <strong>IELTS, TOEFL, PTE, or CELPIP</strong>, or simply want to enjoy word games that strengthen your English, Sky ENG offers a comprehensive solution.</p>
 
       <div class="feature-box">
-        <h3>🎯 Key Benefits</h3>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 12c-1.33 0-2.58-.45-3.61-1.22l-1.42 1.42C8.36 13.31 9.9 14 12 14c2.61 0 4.84-1.39 6.09-3.41l-1.42-1.42C15.58 11.55 14.33 12 12 12zm0-9C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7zm0-11c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg></span> Key Benefits</h3>
         <ul>
           <li><strong>100% Free</strong> — No subscriptions, no hidden costs, no locked features</li>
           <li><strong>Word Game Fun</strong> — Vocabulary, spelling, and roleplay challenges make learning engaging</li>
@@ -409,16 +436,16 @@
     
     
     <section id="conversation-feedback">
-      <h2>Conversation & Feedback Modes</h2>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-6v-2h6v2zM6 8h12V6H6v2zM12 14h-6v-2h6v2z"/></svg></span> Conversation & Feedback Modes</h2>
       
       <p>Sky ENG offers two primary modes that combine word game fun with structured English learning:</p>
 
-      <h3>🗣️ Conversation Mode</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-6v-2h6v2zM6 8h12V6H6v2zM12 14h-6v-2h6v2z"/></svg></span> Conversation Mode</h3>
       <p>In <strong>Conversation Mode</strong>, you play through natural, uninterrupted dialogue challenges with the AI. This mode feels like a word game where you discuss any topic — from everyday life and hobbies to exam-style prompts — while earning feedback points for fluency and vocabulary use.</p>
 
       <p><span class="highlight">Perfect for:</span> Building speaking confidence, practicing spontaneous speech, preparing for conversational interviews, and developing natural flow while enjoying interactive word play.</p>
 
-      <h3>📝 Feedback Mode</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zM2 16h8v-2H2v2zm18-4v-2c-1.1 0-2 .9-2 2 .9 0 1.62.53 1.95 1.25.03.06.05.12.05.18h.01c.28.61.64 1.15 1.05 1.6.43.46.93.84 1.48 1.13.06.03.12.05.19.08.76.32 1.5.54 2.29.61V16c-1.1 0-2-.9-2-2v-2z"/></svg></span> Feedback Mode</h3>
       <p>In <strong>Feedback Mode</strong>, Sky ENG analyzes your word game responses after each turn. You receive:</p>
       <ul>
         <li><strong>Corrected versions</strong> of your sentences with highlighted grammar improvements</li>
@@ -430,7 +457,7 @@
       <p><span class="highlight">Perfect for:</span> Exam preparation, grammar correction, vocabulary building, and structured learning through word game challenges.</p>
 
       <div class="feature-box">
-        <h3>💡 How to Use Effectively</h3>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></span> How to Use Effectively</h3>
         <ol>
           <li>Select your preferred mode (toggle between Conversation and Feedback)</li>
           <li>Tap "Play & Speak" to start a word game session</li>
@@ -443,11 +470,11 @@
     
     
     <section id="speech-analytics">
-      <h2>Real-Time Speech Analytics</h2>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.91-3c-.49 0-.9.36-.98.85C16.52 14.2 14.47 16 12 16s-4.52-1.8-4.93-4.15c-.08-.49-.49-.85-.98-.85-.61 0-1.09.54-1 1.14.49 3 2.89 5.35 5.91 5.78V20c0 .55.45 1 1 1s1-.45 1-1v-2.08c3.02-.43 5.42-2.78 5.91-5.78.1-.6-.39-1.14-1-1.14z"/></svg></span> Real-Time Speech Analytics</h2>
       
       <p>Sky ENG is unique because it provides **instant, acoustic-based analysis** that goes beyond simple word accuracy. These metrics mimic the detailed criteria used by human examiners in official English exams.</p>
       
-      <h3>📈 Speaking Metrics Explained</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M16 11V3H8v8H2v10h20V11h-6zm-6 8H8v-6h2v6zm4 0h-2v-6h2v6zm4 0h-2v-6h2v6z"/></svg></span> Speaking Metrics Explained</h3>
       <p>After every word game session, you receive a detailed breakdown of your speaking performance, essential for exam preparation:</p>
       
       <ul>
@@ -459,11 +486,11 @@
       </ul>
       
       <div class="feature-box">
-        <h3>🔬 Technical Implementation</h3>
-        <p>Sky ENG uses **RMS amplitude analysis**, **silence detection**, and **audio buffer processing** to generate these metrics. Unlike competitor apps that estimate scores, Sky ENG analyzes your *actual audio waveform* in real-time — the same approach used by testing centers.</p>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h2v-2h-2v2zm0-4h2V7h-2v6z"/></svg></span> Technical Implementation</h3>
+        <p>Sky ENG uses <strong>RMS amplitude analysis</strong>, <strong>silence detection</strong>, and <strong>audio buffer processing</strong> to generate these metrics. Unlike competitor apps that estimate scores, Sky ENG analyzes your <em>actual audio waveform</em> in real-time — the same approach used by testing centers.</p>
       </div>
       
-      <h3>📈 Benchmark Scores</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M16 11V3H8v8H2v10h20V11h-6zm-6 8H8v-6h2v6zm4 0h-2v-6h2v6zm4 0h-2v-6h2v6z"/></svg></span> Benchmark Scores</h3>
       <p>Typical fluent English speakers achieve:</p>
       <ul>
         <li>Pronunciation: 90-95%</li>
@@ -476,10 +503,10 @@
     
     
     <section id="roleplay-practice">
-      <h2>Interactive Roleplay Practice</h2>
-      <p>Sky ENG's **Roleplay Word Game** mode immerses you in 20+ real-world scenarios where you practice English through playful challenges. Each scenario feels like a game — from restaurants and airports to offices and interviews — making fluency training engaging and fun while still preparing you for exams and professional communication.</p>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M11.5 2C16.19 2 20 5.81 20 10.5c0 3.32-1.92 6.13-4.68 7.42L12 22l-3.32-4.08C4.81 16.63 3 13.82 3 10.5 3 5.81 6.81 2 11.5 2zm-1.5 12h3c.55 0 1-.45 1-1s-.45-1-1-1h-3c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg></span> Interactive Roleplay Practice</h2>
+      <p>Sky ENG's <strong>Roleplay Word Game</strong> mode immerses you in 20+ real-world scenarios where you practice English through playful challenges. Each scenario feels like a game — from restaurants and airports to offices and interviews — making fluency training engaging and fun while still preparing you for exams and professional communication.</p>
       
-      <h3>🎭 Available Scenarios</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg></span> Available Scenarios</h3>
       <p>Choose from a variety of settings to practice vocabulary, communication strategies, and cultural nuances:</p>
       <ul>
         <li>The Airport Check-in Desk</li>
@@ -492,7 +519,7 @@
       </ul>
       
       <div class="feature-box">
-        <h3>🎯 Exam Alignment</h3>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 15H9v-2h6v2zm0-4H9v-2h6v2zm0-4H9V8h6v2z"/></svg></span> Exam Alignment</h3>
         <p>The Roleplay mode is excellent practice for:</p>
         <ul>
           <li>**CELPIP situational responses** (giving advice, solving problems)</li>
@@ -505,10 +532,10 @@
     
     
     <section id="reading-practice">
-      <h2>Reading & Pronunciation Practice</h2>
-      <p>The **Reading Practice** module turns pronunciation drills into interactive word games. Read AI-generated passages aloud, earn points for accuracy, and receive word‑by‑word analysis that makes improving pronunciation both fun and effective while preparing you for exam‑style speaking tasks.</p>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"/></svg></span> Reading & Pronunciation Practice</h2>
+      <p>The <strong>Reading Practice</strong> module turns pronunciation drills into interactive word games. Read AI-generated passages aloud, earn points for accuracy, and receive word‑by‑word analysis that makes improving pronunciation both fun and effective while preparing you for exam‑style speaking tasks.</p>
       
-      <h3>📚 20+ Reading Categories</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg></span> 20+ Reading Categories</h3>
       <ul>
         <li>Literature — Classic & creative writing</li>
         <li>Travel — Destinations & journeys</li>
@@ -523,17 +550,17 @@
         <li>...and 10 additional specialized topics</li>
       </ul>
       
-      <h3>📖 Reading Practice Workflow</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M10 17l5-5-5-5v10z"/></svg></span> Reading Practice Workflow</h3>
       <ol>
         <li>**Passage Generation** — Sky ENG generates a unique 140-word passage on your chosen topic</li>
         <li>**Model Narration** — Sky reads the passage aloud with natural intonation and pacing</li>
         <li>**Your Turn** — You read the same passage aloud (60 seconds max)</li>
         <li>**Transcript Comparison** — Sky compares your spoken words to the original text word-by-word</li>
-        <li>**Pronunciation Feedback** — Receive detailed analysis highlighting mispronounced words, missed words, and pronunciation scores</li>
+        <li>**Pronunciation Feedback** — Receive detailed analysis highlighting mispronounced words, missed words, and pronunciation patterns</li>
       </ol>
       
       <div class="feature-box">
-        <h3>🎯 Exam Alignment</h3>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 15H9v-2h6v2zm0-4H9v-2h6v2zm0-4H9V8h6v2z"/></svg></span> Exam Alignment</h3>
         <p>This mode is ideal for improving clarity and pronunciation, which are critical for high scores in the speaking sections of:</p>
         <ul>
           <li>**IELTS Speaking** — Fluency and Pronunciation criteria</li>
@@ -546,10 +573,10 @@
     
     
     <section id="listening-practice">
-      <h2>Listening & Summarization Games</h2>
-      <p>Turn passive listening into an active word game challenge. The **Listening Comprehension** mode allows you to listen to AI-generated dialogues and lectures, then challenges you to summarize the content in your own words. This is a crucial skill for both academic and professional English use.</p>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.91-3c-.49 0-.9.36-.98.85C16.52 14.2 14.47 16 12 16s-4.52-1.8-4.93-4.15c-.08-.49-.49-.85-.98-.85-.61 0-1.09.54-1 1.14.49 3 2.89 5.35 5.91 5.78V20c0 .55.45 1 1 1s1-.45 1-1v-2.08c3.02-.43 5.42-2.78 5.91-5.78.1-.6-.39-1.14-1-1.14z"/></svg></span> Listening & Summarization Games</h2>
+      <p>Turn passive listening into an active word game challenge. The <strong>Listening Comprehension</strong> mode allows you to listen to AI-generated dialogues and lectures, then challenges you to summarize the content in your own words. This is a crucial skill for both academic and professional English use.</p>
       
-      <h3>👂 Listening Practice Workflow</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h2v-2h-2v2zm0-4h2V7h-2v5z"/></svg></span> Listening Practice Workflow</h3>
       <ol>
         <li>**Topic Selection** — Choose from 20+ categories (e.g., Science, Business, Culture)</li>
         <li>**Audio Playback** — Listen to a short (~60 second) conversational or informational audio clip</li>
@@ -558,7 +585,7 @@
         <li>**Detailed Feedback** — Receive analysis on what you captured, what you missed, and how well you summarized</li>
       </ol>
       
-      <h3>🌍 20+ Listening Categories</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg></span> 20+ Listening Categories</h3>
       <ul>
         <li>Environment — Nature discussions, sustainability topics</li>
         <li>Entertainment — Movies, music, media conversations</li>
@@ -574,7 +601,7 @@
       </ul>
       
       <div class="feature-box">
-        <h3>🎯 Exam Alignment</h3>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 15H9v-2h6v2zm0-4H9v-2h6v2zm0-4H9V8h6v2z"/></svg></span> Exam Alignment</h3>
         <ul>
           <li>**TOEFL Listening Section** — Conversations, lectures, and summarization</li>
           <li>**IELTS Listening Section 2 & 3** — Multi-speaker conversations in everyday and academic contexts</li>
@@ -586,10 +613,10 @@
     
     
     <section id="exam-preparation">
-      <h2>Exam Preparation (IELTS, TOEFL, PTE, CELPIP)</h2>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 15H9v-2h6v2zm0-4H9v-2h6v2zm0-4H9V8h6v2z"/></svg></span> Exam Preparation (IELTS, TOEFL, PTE, CELPIP)</h2>
       <p>Sky ENG is built on the same core speaking criteria used by official English proficiency tests. By focusing on **fluency, pronunciation, clarity, and grammatical range**, you are automatically training for the most challenging sections of these exams.</p>
       
-      <h3>💡 How Sky ENG Prepares You</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg></span> How Sky ENG Prepares You</h3>
       <ul>
         <li>**Real-Time Feedback** — Immediate correction of grammatical errors and vocabulary usage is key for high writing and speaking scores.</li>
         <li>**Acoustic Analysis** — Your scores are based on the same acoustic science (WPM, pause detection, energy) that testing centers use, providing the most accurate practice possible.</li>
@@ -598,7 +625,7 @@
       </ul>
       
       <div class="feature-box">
-        <h3>📊 Score Interpretation</h3>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 15H9v-2h6v2zm0-4H9v-2h6v2zm0-4H9V8h6v2z"/></svg></span> Score Interpretation</h3>
         <p><strong>90%+ in all metrics</strong> typically correlates to:</p>
         <ul>
           <li>IELTS Speaking: Band 7.5-9.0</li>
@@ -612,9 +639,9 @@
     
     
     <section id="getting-started">
-      <h2>Getting Started with Sky ENG</h2>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2c-1.1 0-2 .9-2 2v3.08c-3.11.84-5.5 3.65-5.5 7.17 0 3.73 2.92 6.75 6.5 6.75s6.5-3.02 6.5-6.75c0-3.52-2.39-6.33-5.5-7.17V4c0-1.1-.9-2-2-2zm-1 15h2v-2h-2v2zm0-4h2v-2h-2v2zm0-4h2V7h-2v2z"/></svg></span> Getting Started with Sky ENG</h2>
       
-      <h3>🚀 Quick Start Guide</h3>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2c-1.1 0-2 .9-2 2v3.08c-3.11.84-5.5 3.65-5.5 7.17 0 3.73 2.92 6.75 6.5 6.75s6.5-3.02 6.5-6.75c0-3.52-2.39-6.33-5.5-7.17V4c0-1.1-.9-2-2-2zm-1 15h2v-2h-2v2zm0-4h2v-2h-2v2zm0-4h2V7h-2v2z"/></svg></span> Quick Start Guide</h3>
       <ol>
         <li>**Download** — Install Sky ENG from the App Store (iOS only, 100% free)</li>
         <li>**Voice Setup** — Set your preferred voice to "Zoe (Premium) (en-US)" for the most natural experience
@@ -629,7 +656,7 @@
       </ol>
       
       <div class="feature-box">
-        <h3>✅ Tips for High Scores</h3>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg></span> Tips for High Scores</h3>
         <p>To maximize your AI analysis scores in every word game:</p>
         <ul>
           <li>Speak for the full 30 seconds to demonstrate fluency and range</li>
@@ -643,25 +670,25 @@
     
     
     <section id="faq">
-      <h2>Frequently Asked Questions</h2>
+      <h2><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.43 12.91 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.11-.9-2.01-2-2.01s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg></span> Frequently Asked Questions</h2>
       <p>The following section covers the most common questions from players using Sky ENG word games to prepare for English proficiency exams or to improve everyday communication skills.</p>
       
-      <h3>❓ How does Sky ENG measure pronunciation accuracy?</h3>
-      <p>Most language apps rely on simplistic word-matching or external cloud-based speech evaluation. Sky ENG takes a more technical and scientific approach by analyzing **raw acoustic features** extracted during your word game sessions.</p>
+      <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.43 12.91 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.11-.9-2.01-2-2.01s-2 .9-2 2h-2c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"/></svg></span> How does Sky ENG measure pronunciation accuracy?</h3>
+      <p>Most language apps rely on simplistic word-matching or external cloud-based speech evaluation. Sky ENG takes a more technical and scientific approach by analyzing <strong>raw acoustic features</strong> extracted during your word game sessions.</p>
       
       <p>The app computes values such as:</p>
       <ul>
-        <li>**RMS energy** — indicates vocal strength and articulation</li>
-        <li>**Peak amplitude variance** — measures clarity across syllables</li>
-        <li>**Silence segmentation** — identifies hesitation patterns</li>
-        <li>**Speaking–pause ratio** — influences fluency scoring</li>
-        <li>**Temporal stability** — consistency across your 30-second window</li>
+        <li><strong>RMS energy</strong> — indicates vocal strength and articulation</li>
+        <li><strong>Peak amplitude variance</strong> — measures clarity across syllables</li>
+        <li><strong>Silence segmentation</strong> — identifies hesitation patterns</li>
+        <li><strong>Speaking–pause ratio</strong> — influences fluency scoring</li>
+        <li><strong>Temporal stability</strong> — consistency across your 30-second window</li>
       </ul>
       
       <p>This results in a more realistic, exam-style pronunciation evaluation.</p>
       
       <div class="feature-box">
-        <h3>🔬 Technical Overview: How Metrics Are Computed</h3>
+        <h3><span class="icon-inline"><svg viewBox="0 0 24 24"><path d="M16 11V3H8v8H2v10h20V11h-6zm-6 8H8v-6h2v6zm4 0h-2v-6h2v6zm4 0h-2v-6h2v6z"/></svg></span> Technical Overview: How Metrics Are Computed</h3>
         <p>Below is a simplified version of the real calculation process:</p>
         
         <ul>
@@ -694,7 +721,7 @@
   <div class="footer-links">
     <a href="https://apps.apple.com/app/sky-eng/id6755718958" target="_blank" rel="noopener">App Store</a>
     <a href="mailto:codelovin@outlook.com">Support</a>
-    <a href="https://skyengapp.github.io">Privacy Policy</a>
+    <a href="https://skyengapp.github.io/privacy.html">Privacy Policy</a>
   </div>
   <p>&copy; 2025 Sky ENG – Play Word Games & Learn English. All rights reserved.</p>
 </footer>
