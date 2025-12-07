@@ -626,5 +626,182 @@
           <li><strong>Speak Naturally</strong> — Tap the microphone and speak for up to 30 seconds</li>
           <li><strong>Complete 2 Turns</strong> — After 2 speaking turns, you'll receive comprehensive analysis</li>
           <li><strong>Review Transcripts</strong> — Go to "My Transcripts" to see detailed feedback and metrics</li>
-        </ol
+
+        <p>These six steps are everything you need to get started. Sky ENG is designed to be frictionless—just open the app, speak naturally, and let the AI guide you. Below you’ll discover what happens beneath the surface, how the system evaluates your speech, and how to get the most out of every session.</p>
+
+        <h3>🧩 What Happens Behind the Scenes (Deep Dive)</h3>
+        <p>Sky ENG is not a simple voice recorder or chatbot. Every session you complete triggers a coordinated series of advanced, fully on-device processes. These systems work together to deliver real-time transcription, natural conversational responses, and exam-grade speech analytics—all without sending data to external servers.</p>
+
+        <p>Here’s a closer look at the technology powering each moment of your session:</p>
+
+        <ul>
+          <li><strong>On-Device Speech Recognition</strong> — Apple’s <em>SpeechTranscriber</em> analyzes your voice locally, generating both live and final transcripts in real time. This ensures accuracy and privacy—your audio is never uploaded. (:contentReference[oaicite:1]{index=1})</li>
+
+          <li><strong>Acoustic Analysis Engine</strong> — Sky ENG includes a custom <code>SpeechMetrics</code> system that measures pronunciation, clarity, pace, pauses, amplitude, WPM, and more by analyzing the raw audio buffer frame-by-frame. This includes:
+            <ul>
+              <li>RMS amplitude mapping</li>
+              <li>Peak variance for clarity measurement</li>
+              <li>Pause detection using sub-second silence windows</li>
+              <li>Speaking duration vs. silence ratio</li>
+              <li>Live energy and consistency scoring</li>
+            </ul>
+            These details mirror what examiners listen for in high-stakes tests like IELTS, TOEFL, PTE, and CELPIP.
+          </li>
+
+          <li><strong>LLM-Driven Language Interpretation</strong> — As you speak, Sky ENG’s on-device MLX LLM interprets the meaning, tone, topic, and grammar of your speech. This engine is capable of:
+            <ul>
+              <li>Understanding context across turns</li>
+              <li>Identifying incomplete ideas or unclear transitions</li>
+              <li>Suggesting more academic or formal phrasing</li>
+              <li>Recognizing topic drift or coherence issues</li>
+            </ul>
+            All of this is computed locally using CPU/GPU-optimized MLX runtimes. (:contentReference[oaicite:2]{index=2})
+          </li>
+
+          <li><strong>Turn-Based Session Flow</strong> — Sky ENG uses a deliberate two-turn structure:
+            <ul>
+              <li>Your first speech sample (up to 30 seconds)</li>
+              <li>An AI response</li>
+              <li>Your second sample (up to 30 seconds)</li>
+              <li>Full performance analysis</li>
+            </ul>
+            The two-turn method keeps sessions fast, focused, and exam-accurate, avoiding conversational drift and cognitive overload.
+          </li>
+
+          <li><strong>Automatic Transcript Generation</strong> — At the end of every session, all messages are compiled into a clean transcript. The system preserves:
+            <ul>
+              <li>Timestamps</li>
+              <li>Roles ("You:" vs "AI:")</li>
+              <li>Text-only formatting for readability</li>
+              <li>Embedded metric summary</li>
+            </ul>
+            These transcripts live only on your device and can be deleted or reviewed anytime.
+          </li>
+
+          <li><strong>Performance Feedback Engine</strong> — Once the transcript is saved, a tailored analysis is generated using the same LLM that handled the conversation. The prompt ensures the model evaluates <em>only your speech</em>, focusing on:
+            <ul>
+              <li>Grammar accuracy</li>
+              <li>Vocabulary complexity</li>
+              <li>Sentence structure variety</li>
+              <li>Fluency and coherence</li>
+              <li>Pronunciation clarity</li>
+            </ul>
+            This mirrors real exam scoring categories.
+          </li>
+        </ul>
+
+        <p>In short: Sky ENG combines acoustic science, linguistics, and modern LLM capabilities into one streamlined experience—yet the user experience feels as simple as tapping a button and speaking naturally.</p>
+
+        <div class="feature-box">
+          <h3>💡 Advanced Users: How to Maximize Feedback Quality</h3>
+          <p>If you're preparing for IELTS, TOEFL, PTE, or CELPIP, keep these expert tips in mind:</p>
+          <ul>
+            <li>Use full sentences with clear transitions (e.g., “First of all…”, “On the other hand…”, “For example…”)</li>
+            <li>Vary your structures: mix simple, compound, and complex sentences</li>
+            <li>Speak continuously for the full 25–30 seconds</li>
+            <li>Avoid overly long pauses—fluency metrics reward consistent flow</li>
+            <li>Add specific details and explanations (these boost coherence scores)</li>
+          </ul>
+          <p>These behaviors directly impact the app’s analysis metrics and help you train exam-ready speaking habits.</p>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <p>The following section covers the most common questions from learners preparing for English proficiency exams or seeking to improve their everyday communication skills.</p>
+
+        <h3>❓ How does Sky ENG measure pronunciation accuracy?</h3>
+        <p>Most language apps rely on simplistic word-matching or external cloud-based speech evaluation. Sky ENG takes a more technical and scientific approach by analyzing <strong>raw acoustic features</strong> extracted during your speech session.</p>
+        <p>The app computes values such as:</p>
+        <ul>
+          <li><strong>RMS energy</strong> — indicates vocal strength and articulation</li>
+          <li><strong>Peak amplitude variance</strong> — measures clarity across syllables</li>
+          <li><strong>Silence segmentation</strong> — identifies hesitation patterns</li>
+          <li><strong>Speaking–pause ratio</strong> — influences fluency scoring</li>
+          <li><strong>Temporal stability</strong> — consistency across your 30-second window</li>
+        </ul>
+        <p>This results in a more realistic, exam-style pronunciation score rather than a shallow accuracy percentage.</p>
+
+        <h3>❓ What makes Sky ENG’s feedback different from ChatGPT or Siri?</h3>
+        <p>While general-purpose AI models are impressive, Sky ENG is engineered specifically for <strong>spoken English improvement</strong>, not text-based conversation. Its feedback is grounded in:</p>
+        <ul>
+          <li>Actual measured audio data</li>
+          <li>Two-turn conversational structure for comparability</li>
+          <li>Exam-derived scoring categories</li>
+          <li>Context-aware rewrites based on your speech patterns</li>
+        </ul>
+        <p>The system also never analyzes the AI’s own replies. It only evaluates your speech—ensuring the result reflects your performance, not the model’s.</p>
+
+        <h3>❓ Are my recordings stored or uploaded?</h3>
+        <p><strong>No.</strong> Sky ENG is architected for complete privacy. Every component—from speech recognition to LLM processing—runs entirely on-device. The source code confirms:</p>
+        <ul>
+          <li>Apple Speech API processes audio locally</li>
+          <li>Transcript and metrics stored in iOS <code>UserDefaults</code> (local)</li>
+          <li>No networking in the speech or LLM pipeline</li>
+          <li>All analysis generated from on-device MLX model files</li>
+        </ul>
+        <p>Your voice never leaves your phone. This is one of the core design principles of Sky ENG’s architecture.</p>
+
+        <h3>❓ Does Sky ENG support structured exam tasks?</h3>
+        <p>Yes. The app supports a wide range of exam-oriented tasks, including:</p>
+
+        <ul>
+          <li><strong>IELTS Part 1–3 style questioning</strong> (personal topics → long turn → abstract analysis)</li>
+          <li><strong>TOEFL Independent Speaking</strong> (give your opinion and justify it)</li>
+          <li><strong>PTE Describe Image</strong> (summaries with clarity and key feature extraction)</li>
+          <li><strong>PTE Retell Lecture</strong> (listen → summarize logically)</li>
+          <li><strong>CELPIP situational responses</strong> (problem-solving, giving advice, etc.)</li>
+        </ul>
+
+        <p>Whether you’re taking an academic exam or practicing casual conversation, the AI adapts to your speaking level and chosen topic automatically.</p>
+
+        <h3>❓ What goes into the final analysis?</h3>
+        <p>After each session, Sky ENG generates a detailed breakdown that includes:</p>
+
+        <ul>
+          <li>Grammar corrections with explanations</li>
+          <li>Stronger vocabulary alternatives</li>
+          <li>Improved versions of your sentences</li>
+          <li>Fluency insight based on detected pauses</li>
+          <li>Pronunciation clarity trends</li>
+          <li>Pace recommendations based on WPM</li>
+          <li>High-level scoring interpretation similar to IELTS/PTE descriptors</li>
+        </ul>
+
+        <p>All of this is contextual: the AI references <em>only your speech</em>, never its own responses, ensuring unbiased and accurate evaluation.</p>
+
+        <div class="feature-box">
+          <h3>🔬 Technical Overview: How Metrics Are Computed</h3>
+          <p>Below is a simplified version of the real calculation process based on the code found in SkyENGMainApp.swift (:contentReference[oaicite:3]{index=3}):</p>
+
+          <ul>
+            <li><strong>Pronunciation Score</strong> — weighted combination of pace and clarity</li>
+            <li><strong>Clarity Score</strong> — derived from amplitude variance across audio frames</li>
+            <li><strong>Pace Score</strong> — based on optimal WPM (~150) compared to your rate</li>
+            <li><strong>Pause Count</strong> — number of silent gaps > 0.5 seconds</li>
+            <li><strong>Average Pause Duration</strong> — length of each detected silence cluster</li>
+            <li><strong>Fluency Score</strong> — combined pacing and clarity behavior</li>
+          </ul>
+
+          <p>These values aren’t guesses—they come from real audio analysis computed directly during your speaking session.</p>
+        </div>
+      </section>
+
+      <!-- Final CTA -->
+      <section id="final-cta">
+        <div class="cta-box">
+          <h2>Start Improving Your English Today</h2>
+          <p>With Sky ENG, you’re getting more than an AI chatbot—you’re getting a personal, private, on-device English-speaking coach that uses real acoustic science and professional exam criteria.</p>
+
+          <a href="https://apps.apple.com/app/sky-eng/id6755718958" class="download-btn" target="_blank">
+            Download Sky ENG Free on the App Store
+          </a>
+        </div>
+      </section>
+
+      <footer>
+        <p>Sky ENG © 2025 — AI English Speaking Guide</p>
+      </footer>
 
