@@ -5,11 +5,9 @@
   <title>Sky ENG – Play Word Games & Learn English | AI Speech Feedback & Exam Practice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- Enhanced SEO Meta Tags (game-first) -->
   <meta name="description" content="Sky ENG: Play fun word games to grow your English vocabulary and spelling. Then get advanced AI speech feedback, pronunciation analysis, and exam-style practice for IELTS, TOEFL, PTE, and CELPIP. Learn by playing, prepare by practicing. Free on iOS.">
   <meta name="keywords" content="word game,english word games,vocabulary game,spelling game,english learning game,learn english with games,ai speech feedback,pronunciation analysis,ielts speaking,toefl speaking,pte speaking,celpip speaking,exam practice,fluency scores,roleplay scenarios,listening comprehension,reading passages,english tutor">
   
-  <!-- Multi-language Keywords (game-first, trimmed and relevant) -->
   <meta name="keywords" lang="hi-IN" content="अंग्रेजी शब्द खेल, वोकैबुलरी गेम, स्पेलिंग गेम, अंग्रेजी सीखो, उच्चारण, IELTS बोलना">
   <meta name="keywords" lang="zh-CN" content="英语单词游戏,词汇游戏,拼写游戏,学英语,发音练习,雅思口语">
   <meta name="keywords" lang="ar-SA" content="لعبة كلمات إنجليزية,مفردات,تهجئة,تعلم الإنجليزية,نطق,ايلتس">
@@ -31,33 +29,27 @@
   <meta name="keywords" lang="bn-BD" content="ইংরেজি শব্দ খেলা,শব্দভাণ্ডার,বানান,ইংরেজি শেখা,উচ্চারণ,IELTS">
   <meta name="keywords" lang="ur-PK" content="انگریزی لفظی کھیل,الفاظ,املا,انگریزی سیکھنا,تلفظ,آئیلٹس">
   
-  <!-- Open Graph / Social Media Meta -->
   <meta property="og:title" content="Sky ENG – Play Word Games & Learn English">
   <meta property="og:description" content="Play word games to boost vocabulary and spelling, then get AI speech feedback and exam-style practice. Free on iOS.">
   <meta property="og:image" content="https://skyengapp.github.io/1024.png">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://skyengapp.github.io">
   
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Sky ENG – Play Word Games & Learn English">
   <meta name="twitter:description" content="Fun word games + advanced AI speech feedback and exam-style practice. Free on iOS.">
   <meta name="twitter:image" content="https://skyengapp.github.io/1024.png">
   <meta name="twitter:app:id:iphone" content="6755718958">
   
-  <!-- iOS App Links / Smart Banner -->
   <meta name="apple-itunes-app" content="app-id=6755718958">
   <meta property="al:ios:app_store_id" content="6755718958">
   
-  <!-- Canonical & Icons -->
   <link rel="canonical" href="https://skyengapp.github.io">
   <link rel="apple-touch-icon" href="1024.png">
   <link rel="icon" type="image/png" href="1024.png">
   
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   
-  <!-- JSON-LD Structured Data (Game-first) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -148,11 +140,11 @@
   }
 
   /* ──────────────────────────────────────────────── */
-  /* HERO SECTION */
+  /* HERO SECTION (REDUCED SIZING) */
   /* ──────────────────────────────────────────────── */
 
   .hero {
-    min-height: 100vh;
+    min-height: 90vh; /* Slightly reduced height */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,18 +173,20 @@
 
   .hero-content { position: relative; z-index: 1; max-width: 980px; margin: 0 auto; }
   .app-icon {
-    width: 140px; height: 140px; margin: 0 auto 40px;
+    width: 120px; /* Reduced from 140px */
+    height: 120px; /* Reduced from 140px */
+    margin: 0 auto 30px; /* Reduced margin */
     border-radius: 32px;
-    box-shadow: 0 20px 60px rgba(10, 132, 255, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 50px rgba(10, 132, 255, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
     animation: floatIcon 3s ease-in-out infinite;
     display: block;
   }
 
   h1 {
-    font-size: clamp(48px, 8vw, 96px);
+    font-size: clamp(40px, 6vw, 80px); /* Reduced max size (96px -> 80px) */
     font-weight: 800;
     letter-spacing: -0.02em;
-    margin-bottom: 24px;
+    margin-bottom: 20px; /* Reduced margin */
     background: linear-gradient(135deg, #fff 0%, var(--sky-blue) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -200,22 +194,22 @@
   }
 
   .tagline {
-    font-size: clamp(20px, 3vw, 28px);
+    font-size: clamp(18px, 2.5vw, 24px); /* Reduced max size (28px -> 24px) */
     color: var(--text-secondary);
-    margin-bottom: 48px;
+    margin-bottom: 40px; /* Reduced margin */
     animation: fadeInUp 1s ease-out 0.2s backwards;
   }
 
   .cta-primary {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
-    padding: 16px 40px;
+    gap: 10px;
+    padding: 14px 30px; /* Reduced padding */
     background: var(--sky-blue);
     color: white;
     text-decoration: none;
     border-radius: 980px;
-    font-size: 18px;
+    font-size: 16px; /* Reduced font size */
     font-weight: 600;
     transition: all 0.3s;
     box-shadow: 0 8px 24px rgba(10, 132, 255, 0.35);
@@ -229,10 +223,10 @@
   /* ──────────────────────────────────────────────── */
 
   .stats {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Min size reduced */
+    gap: 30px; /* Reduced from 40px */
     max-width: 1200px;
-    margin: -60px auto 120px;
+    margin: -40px auto 100px; /* Adjusted margin */
     padding: 0 20px;
     position: relative;
     z-index: 2;
@@ -243,7 +237,7 @@
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 20px;
-    padding: 32px 24px;
+    padding: 24px 20px; /* Reduced padding */
     text-align: center;
     transition: all 0.4s;
   }
@@ -251,96 +245,96 @@
   .stat-card:hover {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(10, 132, 255, 0.3);
-    transform: translateY(-8px);
+    transform: translateY(-4px); /* Reduced lift */
   }
 
   .stat-number {
-    font-size: 48px;
+    font-size: 40px; /* Reduced from 48px */
     font-weight: 800;
     background: linear-gradient(135deg, var(--sky-blue), #5ac8fa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
 
-  .stat-label { font-size: 16px; color: var(--text-secondary); font-weight: 500; }
+  .stat-label { font-size: 15px; color: var(--text-secondary); font-weight: 500; }
 
   /* ──────────────────────────────────────────────── */
-  /* FEATURES */
+  /* FEATURES (REDUCED SIZING) */
   /* ──────────────────────────────────────────────── */
 
-  .features { max-width: 1400px; margin: 0 auto; padding: 120px 20px; }
+  .features { max-width: 1400px; margin: 0 auto; padding: 100px 20px; /* Reduced padding */ }
   .section-title {
-    font-size: clamp(36px, 5vw, 56px);
+    font-size: clamp(32px, 4vw, 48px); /* Reduced max size (56px -> 48px) */
     font-weight: 800;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 60px; /* Reduced margin */
     background: linear-gradient(135deg, #fff 0%, var(--sky-blue) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
-  .feature-showcase { display: grid; gap: 80px; }
+  .feature-showcase { display: grid; gap: 60px; /* Reduced from 80px */ }
 
   .feature-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 40px; /* Reduced from 60px */
     align-items: center;
     background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 32px;
-    padding: 60px;
+    border-radius: 24px; /* Reduced radius */
+    padding: 40px; /* Reduced from 60px */
     transition: all 0.4s;
   }
 
   .feature-item:hover {
     background: rgba(255, 255, 255, 0.04);
     border-color: rgba(10, 132, 255, 0.3);
-    transform: translateY(-8px);
+    transform: translateY(-4px); /* Reduced lift */
   }
 
   .feature-item:nth-child(even) { direction: rtl; }
   .feature-item:nth-child(even) > * { direction: ltr; }
 
-  .feature-content { display: flex; flex-direction: column; gap: 24px; }
+  .feature-content { display: flex; flex-direction: column; gap: 16px; /* Reduced gap */ }
 
   .feature-icon {
-    width: 72px;
-    height: 72px;
+    width: 64px; /* Reduced from 72px */
+    height: 64px; /* Reduced from 72px */
     background: linear-gradient(135deg, var(--sky-blue), #5ac8fa);
-    border-radius: 20px;
+    border-radius: 16px; /* Reduced radius */
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 24px rgba(10, 132, 255, 0.3);
+    box-shadow: 0 6px 18px rgba(10, 132, 255, 0.3);
   }
 
   .feature-icon svg {
-    width: 40px;
-    height: 40px;
+    width: 32px; /* Reduced from 40px */
+    height: 32px; /* Reduced from 40px */
     fill: white;
   }
 
-  .feature-title { font-size: 32px; font-weight: 700; color: var(--soft-white); }
+  .feature-title { font-size: 24px; /* Reduced from 32px */ font-weight: 700; color: var(--soft-white); }
 
   .feature-description {
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 17px; /* Reduced from 18px */
+    line-height: 1.7; /* Adjusted line height */
     color: var(--text-secondary);
   }
 
   .feature-image {
-    border-radius: 24px;
+    border-radius: 16px; /* Reduced radius */
     overflow: hidden;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.08);
     transition: all 0.4s;
   }
 
-  .feature-image:hover { transform: scale(1.02); box-shadow: 0 30px 80px rgba(10, 132, 255, 0.3); }
+  .feature-image:hover { transform: scale(1.01); box-shadow: 0 20px 60px rgba(10, 132, 255, 0.3); }
 
   .feature-image img {
     width: 100%; height: auto; display: block;
@@ -352,46 +346,46 @@
 
   .screenshots-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 32px;
-    margin-top: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Reduced min size */
+    gap: 24px; /* Reduced from 32px */
+    margin-top: 50px;
   }
 
   .screenshot-item {
-    border-radius: 24px;
+    border-radius: 16px; /* Reduced radius */
     overflow: hidden;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.08);
     transition: all 0.4s;
   }
 
   .screenshot-item:hover {
-    transform: scale(1.05) translateY(-10px);
-    box-shadow: 0 30px 80px rgba(10, 132, 255, 0.3);
+    transform: scale(1.03) translateY(-6px); /* Reduced effects */
+    box-shadow: 0 20px 60px rgba(10, 132, 255, 0.3);
   }
 
   .screenshot-item img { width: 100%; height: auto; display: block; }
 
   /* ──────────────────────────────────────────────── */
-  /* CTA SECTION */
+  /* CTA SECTION (REDUCED SIZING) */
   /* ──────────────────────────────────────────────── */
 
   .cta-section {
     text-align: center;
-    padding: 120px 20px;
+    padding: 80px 20px; /* Reduced padding */
     background: radial-gradient(circle at 50% 50%, rgba(10, 132, 255, 0.15), transparent 70%);
   }
 
   .cta-section h2 {
-    font-size: clamp(36px, 5vw, 56px);
+    font-size: clamp(32px, 4vw, 48px); /* Reduced max size */
     font-weight: 800;
-    margin-bottom: 32px;
+    margin-bottom: 24px; /* Reduced margin */
     background: linear-gradient(135deg, #fff 0%, var(--sky-blue) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
-  .app-store-badge { height: 60px; transition: transform 0.3s; }
+  .app-store-badge { height: 50px; /* Reduced from 60px */ transition: transform 0.3s; }
   .app-store-badge:hover { transform: scale(1.05); }
 
   /* ──────────────────────────────────────────────── */
@@ -400,7 +394,7 @@
 
   footer {
     text-align: center;
-    padding: 60px 20px;
+    padding: 40px 20px; /* Reduced padding */
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--text-secondary);
     font-size: 14px;
@@ -409,8 +403,8 @@
   .footer-links {
     display: flex;
     justify-content: center;
-    gap: 32px;
-    margin-bottom: 24px;
+    gap: 24px; /* Reduced gap */
+    margin-bottom: 16px; /* Reduced margin */
     flex-wrap: wrap;
   }
 
@@ -424,20 +418,23 @@
 
   /* RESPONSIVE */
   @media (max-width: 1024px) {
-    .feature-item { grid-template-columns: 1fr !important; direction: ltr !important; }
+    .feature-item { 
+      grid-template-columns: 1fr !important; 
+      direction: ltr !important; 
+      padding: 30px; /* Tighter mobile padding */
+    }
     .feature-item:nth-child(even) { direction: ltr !important; }
   }
 
   @media (max-width: 768px) {
-    .stats { grid-template-columns: 1fr 1fr; margin-top: 40px; }
-    .app-icon { width: 100px; height: 100px; }
-    .feature-item { padding: 40px 24px; }
+    .stats { grid-template-columns: 1fr; margin-top: 30px; } /* Changed to single column on mobile */
+    .app-icon { width: 90px; height: 90px; }
+    .feature-item { padding: 20px; }
   }
 </style>
 </head>
 <body>
 
-<!-- Top Navigation -->
 <nav class="top-nav">
   <div class="nav-container">
     <a href="index.html" class="nav-logo">Sky ENG</a>
@@ -451,9 +448,9 @@
 
 <section class="hero">
   <div class="hero-content">
-    <img src="1024.png" alt="Sky ENG App Icon" class="app-icon">
-    <h1>Sky ENG</h1>
-    <p class="tagline">Play Word Games & Learn English<br>Fun-first with AI Speech Feedback & Exam Practice</p>
+    <img src="1024.png" alt="Sky ENG Word Game App Icon for English Learning" class="app-icon">
+    <h1>Sky ENG: Play Word Games & Learn English</h1>
+    <p class="tagline">Fun-first AI Speech Feedback, Pronunciation Analysis, & Exam Practice.</p>
     <a href="https://apps.apple.com/app/sky-eng/id6755718958" target="_blank" rel="noopener">
       <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Sky ENG on the App Store" class="app-store-badge">
     </a>
@@ -471,7 +468,6 @@
   <h2 class="section-title">Everything You Need to Play & Learn English</h2>
   
   <div class="feature-showcase">
-    <!-- Feature 1: Conversation & Feedback -->
     <div class="feature-item">
       <div class="feature-content">
         <div class="feature-icon">
@@ -481,11 +477,10 @@
         <p class="feature-description">Switch between <strong>Conversation Mode</strong> for natural dialogue and <strong>Feedback Mode</strong> for instant grammar and vocabulary corrections. Practice while playing word challenges, and enjoy AI that adapts to your level — from casual fun to exam-style speaking drills.</p>
       </div>
       <div class="feature-image">
-        <img src="1_Main_Menu_Top_Section.PNG" alt="Sky ENG Conversation and Feedback Modes" loading="lazy">
+        <img src="1_Main_Menu_Top_Section.PNG" alt="Sky ENG Conversation and Feedback Word Game Modes" loading="lazy">
       </div>
     </div>
 
-    <!-- Feature 2: Detailed Analysis -->
     <div class="feature-item">
       <div class="feature-content">
         <div class="feature-icon">
@@ -495,11 +490,10 @@
         <p class="feature-description">Get <strong>exam-style analysis</strong> alongside your word game sessions. Detailed scores for pronunciation, clarity, pace, and fluency help you track progress. Monitor pause patterns, words-per-minute, and audio metrics — all while having fun with interactive challenges.</p>
       </div>
       <div class="feature-image">
-        <img src="4_Detailed_Analysis.PNG" alt="Detailed Speech Analysis with Metrics" loading="lazy">
+        <img src="4_Detailed_Analysis.PNG" alt="Detailed Speech Analysis with Metrics for English Fluency" loading="lazy">
       </div>
     </div>
 
-    <!-- Feature 3: Grammar Correction -->
     <div class="feature-item">
       <div class="feature-content">
         <div class="feature-icon">
@@ -509,11 +503,10 @@
         <p class="feature-description">In <strong>Feedback Mode</strong>, Sky ENG corrects your sentences while you play. Learn new words, refine grammar, and improve sentence structure. Perfect for combining fun word challenges with serious language improvement.</p>
       </div>
       <div class="feature-image">
-        <img src="5_Chat_Realtime_Feedback.PNG" alt="Real-time Grammar and Vocabulary Corrections" loading="lazy">
+        <img src="5_Chat_Realtime_Feedback.PNG" alt="Real-time Grammar and Vocabulary Corrections in English Word Games" loading="lazy">
       </div>
     </div>
 
-    <!-- Feature 4: Reading Practice -->
     <div class="feature-item">
       <div class="feature-content">
         <div class="feature-icon">
@@ -523,12 +516,11 @@
         <p class="feature-description">Pick from <strong>20+ themed categories</strong> and enjoy AI-generated passages. Read aloud, get pronunciation scores, and combine reading drills with word game fun. Perfect for building vocabulary and fluency together.</p>
       </div>
       <div class="feature-image">
-        <img src="6_Reading_Passage.PNG" alt="Reading Practice with AI-Generated Passages" loading="lazy">
+        <img src="6_Reading_Passage.PNG" alt="Reading Practice with AI-Generated English Passages" loading="lazy">
       </div>
     </div>
 
     
-<!-- Feature 5: Listening & Summarization -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -538,11 +530,10 @@
     <p class="feature-description">Sharpen <strong>listening skills</strong> with AI-generated 3-way conversations across 20 fun categories like Entertainment, Health, Finance, Technology, and Culture. Summarize what you heard and get scored on comprehension accuracy, summary quality, and speaking fluency — combining word game fun with exam-style practice.</p>
   </div>
   <div class="feature-image">
-    <img src="7_Listening_Passage.PNG.png" alt="Listening Comprehension Exercise" loading="lazy">
+    <img src="7_Listening_Passage.PNG.png" alt="Listening Comprehension Word Game Exercise" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 6: In Action Shot -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -552,11 +543,10 @@
     <p class="feature-description">Explore the top section of Sky ENG’s main menu with core word game and practice modes.</p>
   </div>
   <div class="feature-image">
-    <img src="1_Main_Menu_Top_Section.PNG" alt="Sky ENG Main Menu - Practice Modes" loading="lazy">
+    <img src="1_Main_Menu_Top_Section.PNG" alt="Sky ENG Main Menu - Core Word Game and Practice Modes" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 7 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -566,11 +556,10 @@
     <p class="feature-description">Access extra features and tools from the bottom section of the menu.</p>
   </div>
   <div class="feature-image">
-    <img src="2_Main_Menu_Bottom_Section.PNG" alt="Sky ENG Menu - Additional Features" loading="lazy">
+    <img src="2_Main_Menu_Bottom_Section.PNG" alt="Sky ENG Menu - Additional Features and Tools" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 8 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -580,11 +569,10 @@
     <p class="feature-description">View expanded menu options for deeper customization and practice paths.</p>
   </div>
   <div class="feature-image">
-    <img src="3_Main_Menu_expanded.PNG" alt="Expanded Menu Options" loading="lazy">
+    <img src="3_Main_Menu_expanded.PNG" alt="Expanded Menu Options for Word Game Customization" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 9 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -594,12 +582,11 @@
     <p class="feature-description">Get detailed speech analysis with metrics to track progress.</p>
   </div>
   <div class="feature-image">
-    <img src="4_Detailed_Analysis.PNG" alt="Detailed Speech Analysis with Metrics" loading="lazy">
+    <img src="4_Detailed_Analysis.PNG" alt="Detailed Speech Analysis with Metrics for English Fluency" loading="lazy">
   </div>
 </div>
 
     
-<!-- Feature 10 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -609,11 +596,10 @@
     <p class="feature-description">Play conversation challenges with AI and receive instant feedback on accuracy and fluency. Combine fun word game interactions with serious speaking practice to boost confidence and exam readiness.</p>
   </div>
   <div class="feature-image">
-    <img src="5_Chat_Realtime_Feedback.PNG" alt="Real-time Chat with AI Feedback" loading="lazy">
+    <img src="5_Chat_Realtime_Feedback.PNG" alt="Real-time Chat with AI Feedback for Word Games" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 11 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -623,11 +609,10 @@
     <p class="feature-description">Enjoy guided reading passages that double as word game challenges. Improve pronunciation and comprehension while having fun, with AI scoring your accuracy and fluency.</p>
   </div>
   <div class="feature-image">
-    <img src="6_Reading_Passage.PNG" alt="Reading Practice with Pronunciation Feedback" loading="lazy">
+    <img src="6_Reading_Passage.PNG" alt="Reading Practice with Pronunciation Feedback and Word Game Challenges" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 12 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -637,11 +622,10 @@
     <p class="feature-description">Listen to passages and summarize what you heard to test comprehension skills. Blend listening drills with word game fun to strengthen memory and fluency.</p>
   </div>
   <div class="feature-image">
-    <img src="7_Listening_Passage.PNG.png" alt="Listening Comprehension Exercise" loading="lazy">
+    <img src="7_Listening_Passage.PNG.png" alt="Listening Comprehension Word Game Exercise" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 13 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -651,25 +635,23 @@
     <p class="feature-description">Engage in roleplay scenarios that feel like word games. Practice real-world conversations with AI guidance and feedback to improve fluency and confidence.</p>
   </div>
   <div class="feature-image">
-    <img src="8_Chat_RolePlay.PNG" alt="Interactive Roleplay Scenarios" loading="lazy">
+    <img src="8_Chat_RolePlay.PNG" alt="Interactive Roleplay Scenarios for Word Game Practice" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 14 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
-      <svg viewBox="0 0 24 24"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.91-3c-.49 0-.9.36-.98.85C16.52 14.2 14.47 16 12 16s-4.52-1.8-4.93-4.15c-.08-.49-.49-.85-.98-.85-.61 0-1.09.54-1 1.14.49 3 2.89 5.35 5.91 5.78V20c0 .55.45 1 1 1s1-.45 1-1v-2.08c3.02-.43 5.42-2.78 5.91-5.78.1-.6-.39-1.14-1-1.14z"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.91-3c-.49 0-.9.36-.98.85C16.52 14.2 14.47 16 12 16s-4.52-1.8-4.93-4.15c-.08-.49-.49-.85-.98-.85-.61 0-1.09.54-1 1.14.49 3 2.89 5.35 5.91 5.78V20c0 .55.45 1 1 1s1-.45 1-1v-2.08c3.02-.43 5.42-2.78 5.91-5.78.1-.6-.39-1-1.14-1-1.14z"/></svg>
     </div>
     <h3 class="feature-title">See Sky ENG in Action: Word Lookup</h3>
     <p class="feature-description">Quickly find definitions and expand your vocabulary during practice. Word lookup tools integrate seamlessly with game modes to make learning fun and effective.</p>
   </div>
   <div class="feature-image">
-    <img src="9_Lookup_Definitiion.PNG" alt="Word Lookup and Definitions" loading="lazy">
+    <img src="9_Lookup_Definitiion.PNG" alt="Word Lookup and Definitions Tool for Vocabulary Building" loading="lazy">
   </div>
 </div>
 
-<!-- Feature 15 -->
 <div class="feature-item">
   <div class="feature-content">
     <div class="feature-icon">
@@ -686,11 +668,10 @@
     <p class="feature-description">Play translation challenges where you match words and phrases across languages. Strengthen vocabulary while having fun, and instantly see AI feedback on accuracy and fluency.</p>
   </div>
   <div class="feature-image">
-    <img src="10_Lookup_Translation.PNG" alt="Word Game Translation Support" loading="lazy">
+    <img src="10_Lookup_Translation.PNG" alt="Word Game Translation Support and Vocabulary Practice" loading="lazy">
   </div>
 </div>
 
-<!-- Feature Cards -->
 <div class="feature-card fade-in">
   <span class="feature-icon">🎭</span>
   <h3 class="feature-title">20+ Roleplay Word Game Scenarios</h3>
@@ -710,7 +691,6 @@
 </div>
 </section>                                                                                                         
   
-<!-- CTA Section -->
 <section class="cta-section">
   <h2>Play Word Games & Learn English Today</h2>
   <p class="tagline">Join thousands of players having fun with word challenges while improving English fluency with AI-powered feedback</p>
@@ -719,14 +699,12 @@
   </a>
 </section>
 
-<!-- Privacy & Support Section -->
 <section id="privacy" class="privacy-support">
   <h2>Privacy & Support</h2>
   <p>Sky ENG is designed with your privacy in mind. All practice sessions and transcripts remain on your device. We do not collect personal data or store your information in the cloud.</p>
   <p>If you need help or have questions, please contact our support team at <a href="mailto:codelovin@outlook.com">codelovin@outlook.com</a>. We aim to respond within 48 hours.</p>
 </section>
 
-<!-- Footer -->
 <footer>
   <div class="footer-links">
     <a href="https://apps.apple.com/app/sky-eng/id6755718958" target="_blank" rel="noopener">App Store</a>
@@ -736,7 +714,6 @@
   <p>&copy; 2025 Sky ENG – Play Word Games & Learn English. All rights reserved.</p>
 </footer>
 
-<!-- Scroll Animation Script -->
 <script>
   // Intersection Observer for scroll animations
   const observerOptions = {
