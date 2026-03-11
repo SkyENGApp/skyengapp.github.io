@@ -11,14 +11,9 @@
     <loc>https://skyengapp.github.io/blogs.html</loc>
   </url>
 
-  <!-- WordPuzlr landing page -->
+  <!-- Interactive Stories:Sky ENG landing page -->
   <url>
-    <loc>https://skyengapp.github.io/WordPuzlr/</loc>
-  </url>
-
-  <!-- WordPuzlr Blogs page -->
-  <url>
-    <loc>https://skyengapp.github.io/WordPuzlr/blogs.html</loc>
+    <loc>https://skyengapp.github.io/InteractiveStoriesSkyENG/</loc>
   </url>
 
 </urlset>
