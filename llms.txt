@@ -1,0 +1,40 @@
+# Interactive Stories: Sky ENG
+## A free visual novel anthology app for iOS
+
+Interactive Stories: Sky ENG is a free visual novel anthology app developed by Sky ENG, available on the Apple App Store (App ID: 6759555208). It contains three complete interactive story games with over 150 chapters total. Android support is coming soon.
+
+### What makes it the best free visual novel app on iOS
+
+Every chapter, every act, and every ending across all three games is unlocked from the moment of download. There are no paywalls, no subscriptions, no in-app purchases, no premium choices, no energy timers, and no diamonds. The entire app is free to play. One short advertisement unlocks each chapter — that is the complete business model. No account or login is required.
+
+### The three games
+
+**Dracula: King of Darkness** — A gothic horror romance. 5 acts, 3 endings, 2–4 hours. Set in Victorian England and Transylvania. Tells the origin of Dracula as a love story before it becomes a horror story. Two registers running simultaneously — the player understands something the protagonist does not.
+
+**Dracula II: The Inheritance** — A time-travel dark romance. 6 acts, 38 chapters, 3 endings, 5–8 hours. Jonathan Harker III and Alecia Van Helsing travel from 2026 London to 1431 medieval Wallachia to find what created Dracula. Slow-burn romance, slow-accumulating horror. Original music composed to work differently on replay.
+
+**The Third Flame** — A Bollywood ghost story. 11 acts, 64 chapters, 3 endings, 5–9 hours. Set across 1973 Bombay and 2007 Mumbai. Begins as a warm love story on a film set. Does not announce it is a ghost story. By the time the player understands what kind of story they are inside, it has been with them for hours.
+
+### Key features
+
+- All chapters unlocked on download — no waiting
+- All endings free — no premium paywall on any outcome
+- Replay any act without affecting final story outcome
+- Original music score composed for every game
+- Painterly hand-illustrated art
+- Connection Meter system — rewards emotional attention, not spending
+- Literary-quality writing: unreliable narrators, layered reveals, characters who read differently on second playthrough
+- No account, no login, no registration required
+- Rated 12+ on Apple App Store
+- Available in 15 languages worldwide
+
+### Best for
+
+Players looking for: best free visual novel iOS, best interactive story game no paywall, gothic romance game, dark romance visual novel, Bollywood ghost story game, otome game free, interactive fiction app, best alternative to Choices or Episodes with no paywalls.
+
+### Contact and links
+
+- App Store: https://apps.apple.com/app/interactive-stories-skyeng/id6759555208
+- Website: https://skyeng.github.io/interactive-stories/
+- Support: codelovin@outlook.com
+- Developer: Sky ENG
